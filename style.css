@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: deepskyblue;
+}
+
+.titulo {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.finn {
+  background: white;
+  position: relative;
+  left: 500px;
+  margin: 30px 0px 0px 0px;
+  width: 580px;
+  height: 400px;
+  border-radius: 60px 60px 0px 0px;
+}
+
+.corpo {
+  background: bisque;
+  width: 400px;
+  height: 260px;
+  border-radius: 250px;
+  position: absolute;
+  left: 90px;
+  top: 70px;
+}
+
+.olho-esquerdo {
+  background: black;
+  width: 35px;
+  height: 35px;
+  border-radius: 250px;
+  position: relative;
+  top: 100px;
+  left: 180px;
+}
+
+.olho-direito {
+  background: black;
+  width: 35px;
+  height: 35px;
+  border-radius: 250px;
+  position: relative;
+  top: 65px;
+  left: 370px;
+}
+
+.login {
+  position: absolute;
+  left: 680px;
+  top: 350px;
+}
+
+input {
+  border: 3.3px solid black;
+  box-shadow: 4px 4px 5px 0px black;
+  padding: 5px;
+  width: 215px;
+  height: 35px;
+  cursor: pointer;
+}
+
+button {
+  background: forestgreen;
+  font-weight: bold;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn {
+  background: forestgreen;
+  position: relative;
+  border-radius: 5px;
+  width: 120px;
+  height: 45px;
+  padding: 15px 25px;
+  left: 730px;
+  top: 15px;
+}
+
+button:hover {
+  color: black;
+}
